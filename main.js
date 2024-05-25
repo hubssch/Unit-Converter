@@ -32,5 +32,5 @@ function volumeCalculator(){
 function massCalculator()
 {
     let inputValue = document.getElementById("input").value
-    mass.innerHTML += `Mass (Kilograms/Pounds)<br/> <br/>${inputValue} kilos =  ${Math.round(inputValue * 2.204 * 1000) / 1000} punds | ${inputValue} pounds = ${Math.round(inputValue / 2.204 * 1000) / 1000} kilos`
+    mass.innerHTML = `Mass (Kilograms/Pounds)<br/> <br/>${inputValue} kilos =  ${Math.round(inputValue * 2.204 * 1000) / 1000} punds | ${inputValue} pounds = ${Math.round(inputValue / 2.204 * 1000) / 1000} kilos`
 }
